@@ -3,21 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>About Me</h1>
-   
-    <fieldset style="background-color: #0b4f51; font-size: 20px; color: rgb(255, 255, 255);">
-  
-        <p>An aspiring software engineer with a passion for AI and a creative edge in graphic design. 
-            Always exploring the intersection of technology and art — from building intelligent solutions 
-            to crafting visually stunning designs. 
-            A curious mind constantly learning, creating, and pushing 
-            boundaries in both the digital and creative world</p>
-    </fieldset>
-    <img src="/hobbies.png" alt="This is what I do" >
 
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="aboutme.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projdone.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactme.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+
+        <h1>About Me</h1>
+
+        <div class="card mb-4">
+            <div class="card-body bg-success text-white">
+                <p class="mb-0">An aspiring software engineer with a passion for AI and a creative edge in graphic design.
+                Always exploring the intersection of technology and art — from building intelligent solutions
+                to crafting visually stunning designs.
+                A curious mind constantly learning, creating, and pushing
+                boundaries in both the digital and creative world.</p>
+            </div>
+        </div>
+
+        <h4>My Skills</h4>
+        <div class="mb-3">
+            <span class="badge bg-primary">Python</span>
+            <span class="badge bg-success">AI / ML</span>
+            <span class="badge bg-danger">Graphic Design</span>
+            <span class="badge bg-warning text-dark">Illustration</span>
+            <span class="badge bg-info text-dark">Web Development</span>
+        </div>
+
+        <h4>Hobbies</h4>
+        <div class="alert alert-success">
+            I like art, illustration, music and exploring new technologies!
+        </div>
+
+        <img src="/hobbies.png" alt="This is what I do" class="img-fluid mb-3">
+
+        <br>
+        <a href="index.html" class="btn btn-secondary">Back to Home</a>
+
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+        <p class="mb-0">© 2025 Kazi Tanzia Saba</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
