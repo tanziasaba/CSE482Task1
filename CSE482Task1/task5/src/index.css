@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  background: #ffffff;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(219, 234, 254, 0.3) 0, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(243, 232, 255, 0.3) 0, transparent 50%);
+  color: #0f172a;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.dark body {
+  background: #0f172a;
+  color: #f8fafc;
+}
